@@ -1,0 +1,74 @@
+.calendar {
+  width: 80%;
+  margin: 1em auto;
+  padding: 50px 0;
+}
+
+.calendar__info {
+  display: flex;
+  align-items: center;
+  padding: 0 1em;
+  font-size: 1.2em;
+  border: solid 1px;
+}
+
+.month-year {
+  display: flex;
+  margin-right: auto;
+}
+
+.controls {
+  display: flex;
+}
+
+.prev, .next {
+  cursor: pointer;
+  font-size: 1.4;
+}
+
+.prev {
+  margin-right: 10px;
+}
+
+.calendar__month,  .calendar__year {
+  padding: .5em 1em;
+}
+
+.calendar__next {
+  margin-left: auto;
+}
+
+.calendar__week {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(7, 1fr);
+  column-gap: 10px;
+  border-style: solid;
+  border-width: 0 1px 1px 1px;
+}
+
+.calendar__day {
+  padding: 10px 0;
+}
+
+.calendar_dates {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.date {
+  display: flex;
+  border: solid 1px;
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.today {
+  background-color: lightblue;
+  color: blue;
+}

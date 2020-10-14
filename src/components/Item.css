@@ -1,0 +1,8 @@
+.input-row {
+  display: flex;
+  border: solid 2px black;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  padding: 15px 10px;
+  justify-content: space-between;
+}
